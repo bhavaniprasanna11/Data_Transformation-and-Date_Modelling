@@ -30,7 +30,7 @@ This dataset can be used with:
 
 - Microsoft Power BI
 
-**###Data Import:**
+### Data Import:
 
 ➢ Imported List of Orders.csv into Power BI. 
 ➢ Opened the list of orders in the Power Query Editor and used the Transform 
@@ -42,7 +42,7 @@ Data option.
 
 <img width="940" height="442" alt="image" src="https://github.com/user-attachments/assets/2586be79-395d-4834-b409-9b8cb6530f5d" />
 
-**###Row Limiting & Data Types:**
+### Row Limiting & Data Types:
 
 ➢ Kept the first 500 rows in List of Orders table.
 
@@ -58,13 +58,13 @@ Data option.
 
 <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/eb304162-9546-418c-8316-814880b5fe71" />
 
-**###Text Formatting:**
+### Text Formatting:
 
 ➢ Format the CustomerName column to proper case to ensure consistent capitalization.
 
 <img width="940" height="356" alt="image" src="https://github.com/user-attachments/assets/b9fcdede-93ee-4868-b582-749abf049d63" />
 
-**###Column Creation:**
+### Column Creation:
 
 ➢ Merge the City and State columns to create a new column named Location in the format: City, State
 
@@ -74,7 +74,7 @@ Data option.
 
 <img width="940" height="340" alt="image" src="https://github.com/user-attachments/assets/6cae4608-4400-422a-8d62-ae3ac2b14063" />
 
-**###Conditional Column:**
+### Conditional Column:
 ➢ Add a conditional column named Profit Status based on:
 ■ Profit < 0 → Loss
 ■ Profit = 0 → Break-Even
@@ -82,14 +82,14 @@ Data option.
 
 <img width="940" height="353" alt="image" src="https://github.com/user-attachments/assets/e6122631-f1a3-4a89-b2b3-73fcff5c030e" />
 
-**###Merging Data (Joins):-**
+### Merging Data (Joins):-
 
 ➢ Merge the List of Orders and Order Details tables using Order ID.
 ➢ Name the merged output table as Orders Data.
 
 <img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/40dfd5a8-212b-4ebe-8a36-a105c9dc62f2" />
 
-**###Handling Missing Data & Duplicate Data:-**
+### Handling Missing Data & Duplicate Data:-
 ➢ Identify missing values across all tables.
 
 <img width="940" height="221" alt="image" src="https://github.com/user-attachments/assets/fe5512e6-6672-4da3-b5fe-803f80ea7e14" />
@@ -132,7 +132,7 @@ Data option.
 
 <img width="940" height="229" alt="image" src="https://github.com/user-attachments/assets/1c2dfe2f-b6e4-4f50-a85c-442f7beb5eb4" />
 
-10. Data Modeling:
+### Data Modeling:
 ● Establish a relationship between:
 ○ List of Orders and Order Details using Order ID
 ○ Order Details and Sales Target using Category
